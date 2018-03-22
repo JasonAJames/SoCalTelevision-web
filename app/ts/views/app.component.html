@@ -12,6 +12,11 @@
 <body class="body">
 <div class="container-fluid">
     <my-app>
+            <ul>
+                    <li><a [routerLink] = "['/AppComponent']">Product</a></li>
+                    <li><a [routerLink] = "['/AppComponent1']">Inventory</a></li>
+                 </ul>
+                 <router-outlet></router-outlet>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                     <li>

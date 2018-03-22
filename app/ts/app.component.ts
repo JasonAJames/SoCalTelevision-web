@@ -1,4 +1,5 @@
 import {Component} from 'angular2/core';
+import { routes } from './app.router';
 
 @Component({
     selector: 'my-app',

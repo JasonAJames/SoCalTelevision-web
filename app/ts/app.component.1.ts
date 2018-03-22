@@ -24,7 +24,7 @@ import {Component} from 'angular2/core';
       ],
 })
 
-export class AppComponent {
+export class AppComponent1 {
     source = 'http://abcnews.go.com/live/video/special-live-1'
     stationName = 'ABC 7 News'
     title = 'SoCalTelevision'

@@ -1,8 +1,18 @@
 import {Component} from 'angular2/core';
+import {ROUTER_DIRECTIVES, RouteConfig, Router} from 'angular2/router';
+import {FORM_PROVIDERS, FORM_DIRECTIVES, Control} from 'angular2/common';
+import {Http} from 'angular2/http';
+
+@RouteConfig([
+    { path: '/home', component: AppComponent, name: 'Home' },
+    { path: '/**', redirectTo: ['Home'] }
+  ])
 
 @Component({
     selector: 'my-app',
     templateUrl: 'app/ts/views/app.component.html',
+    directives: [ ROUTER_DIRECTIVES, FORM_DIRECTIVES ],
+    pipes: [],
     styleUrls: [
         'app/ts/css/app.component.css',
         '/node_modules/bootstrap/dist/css/bootstrap.css',

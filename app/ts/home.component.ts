@@ -31,6 +31,6 @@ import {Http} from 'angular2/http';
 
 export class HomeComponent {
     source = 'https://livestream.com/accounts/9262780/events/3189705/player?width=770&height=433&autoPlay=true&mute=false&customAdTagParameters=Site%3D41641936%26pid%3Don-airlive-streaming'
-    stationName = 'SoCal Television'
-    title = 'SoCalTelevision'
+    stationName = 'SoCalTelevision.com'
+    title = 'SoCalTelevision.com'
 }

@@ -15,11 +15,14 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                     <li>
-                            <a href="../help">Home</a>
+                            <a routerLink="/home">Home</a>
                         </li>
                 <li>
-                    <a href="../help">About</a>
+                    <a routerLink="/about">About</a>
                 </li>
+                <li>
+                        <a routerLink="/ktla5">KTLA 5</a>
+                    </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="stations">Stations <span class="caret"></span></a>
                     <ul class="dropdown-menu" aria-labelledby="stations">
@@ -30,6 +33,7 @@
                 </li>
             </ul>
         </div>
+        <router-outlet></router-outlet>
         <h1 class="mainH1 col-md-12">You are Watching<br/>{{ stationName }}</h1>
         
     
